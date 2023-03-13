@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <style>
+        *{
+          padding: 0;
+          margin: 0;
+        }
+        #b1:hover,#b2:hover,#b3:hover,#b4:hover{
+          color: #329998;
+        }
+
+
+        #about-tab{
+          background: rgba(0,0,0,0.6)url(./images/bg1.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;   
+          background-blend-mode: darken;  
+          height: 1200px;
+        }
+        #mission-tab{
+          background: rgba(0,0,0,0.8)url(./images/cal.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;   
+          background-blend-mode: darken;  
+          height: 1000px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Buttons -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100 header">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h1><b>GAIA</b></h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item text-center">
+                    <a class="nav-link text-uppercase" style="color: #329998;" href="#">Home</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-uppercase" style="color: #329998;" href="#about-tab">About</a>
+                </li>
+                <li class="nav-item text-center">
+                  <a class="nav-link text-uppercase" style="color: #329998;" href="#mission-tab">Mission</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-uppercase" style="color: #329998;" href="#feature-tab">Features</a>
+                </li>
+                <li class="nav-item text-center">
+                  <a class="nav-link text-uppercase" style="color: #329998;" href="#research-tab">Research</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link text-uppercase" style="color: #329998;" href="#contact_tab">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Introduction to App-->
+      <section class="container" id="home_tab">
+        <div class="row">
+          <div class="col-12">
+            <div class="py-5"></div>
+          </div>
+        </div>
+        <div class="row flex-column-reverse flex-lg-row justify-content-center  min-vh-95 mb-150">
+          <div class="col-lg-6 col-xl-6 mt-100">
+            <div class="text-center text-lg-start">
+              <img src="./images/logo.png" width="130" height="130" alt="logo">
+              <h2 class="">
+                Carbon Footprint Calculator Application
+              </h2>
+              <p class=" my-5 w-75 text-black-50 mx-auto mx-lg-0" >
+                See the bigger picture with GAIA - Your Carbon Footprint Companion
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6">
+            <img src="./images/C_cal_2.PNG" class="w-100 h-475 mt-20" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- Describing Problems -->
+      <section  id="about-tab">
+        <div class="row">
+          <div class="col-12">
+            <div class="py-5"></div>
+          </div>
+        </div>
+        <div class="row flex-column-reverse flex-lg-row justify-content-center  min-vh-95 mb-150 mt-100">
+          <div class="col-lg-6 col-xl-6">
+            <div class="text-center text-lg-start">
+              <h1 class="display-4">
+                About
+              </h1>
+              <p class="my-1 w-125 mx-auto mx-lg-0" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Health care challenges can be related to environmental factors in several ways. Environmental factors such as air pollution, water pollution, and exposure to hazardous chemicals can cause or exacerbate a range of health conditions, including respiratory and cardiovascular diseases, cancer, and neurological disorders. Health care workers and patients may be particularly vulnerable to these environmental hazards, especially if they are working or living in areas with poor air quality or contaminated water sources.   
+              </p>
+              <p class="my-1 w-125 mx-auto mx-lg-0" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additionally, the environmental impact of health care facilities and operations can contribute to climate change and other environmental challenges. For example, health care facilities are responsible for a significant portion of greenhouse gas emissions and generate large amounts of waste, much of which is hazardous and requires special handling and disposal.
+              </p>
+              <p class="my-1 w-125 mx-auto mx-lg-0" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Addressing these environmental factors and reducing their impact on health care workers and patients can help improve health outcomes and reduce health care costs. This can be achieved through measures such as improving indoor air quality, reducing energy use and emissions from health care facilities, and promoting sustainable practices throughout the health care system.
+              </p>
+            </div>
+          </div>
+        </div>
+      <section>
+
+      <!-- Mission of App -->
+      <section id="mission-tab">
+        <div class="row">
+          <div class="col-12">
+            <div class="py-5"></div>
+          </div>
+        </div>
+        <div class="row flex-column-reverse flex-lg-row justify-content-center  min-vh-95 mb-150 mt-100">
+          <div class="col-lg-6 col-xl-6">
+            <div class="text-center text-lg-start">
+              <h1 class="display-4">
+                Mission
+              </h1>
+              <p class="my-3 w-75 mx-auto mx-lg-0" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To assist with that change, a new Carbon Footprint Calculator has arrived.
+              </p>
+              <p class="my-3 w-75 mx-auto mx-lg-0">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carbon Footprint Calculator GAIA is a Python-based carbon footprint calculator that allows users to calculate their carbon footprint in three categories: transportation, waste, and electricity. Additionally, GAIA offers a feature that allows users to use their device's camera to take a photo and use object detection AI to identify items that contribute to carbon footprint. Then, they can ask questions about Carbon Footprint to Chat Bot.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Areas and Features of App -->
+      <section id="feature-tab">
+        <div class="row justify-content-center ">
+          <div class="col-lg-5 mt-20">
+            <div class="text-center mt-100">
+              <h1>Main Features of GAIA</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="feature-tab my-5">
+              <nav>
+                <div class="nav justify-content-center nav-pills" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Transportation</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Waste</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Electricity</button>
+                  <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Vision</button>
+                  <button class="nav-link" id="nav-bot-tab" data-bs-toggle="tab" data-bs-target="#nav-bot" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Chat Bot</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <div class="row justify-content-center  my-5">
+                      <div class="col-lg-5">
+                        <img class=" mb-5 mb-lg-0 rounded-2" id="trans" src="./images/f2.jpg" width="250px" height="400px" alt="">
+                      </div>
+                      <div class="col-lg-1"></div>
+                      <div class="col-lg-5">
+                        <div class="text-center text-lg-start">
+                          <h1>Transportation</h1>
+                          <p class="text-black-50 mb-4" >
+                            It is designed to calculate the carbon emission based on the distance, fuel efficiency, and fuel type input by the user.
+                          </p>  
+                        </div>                       
+                      </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                  <div class="row justify-content-center  my-5">
+                    <div class="col-lg-5">
+                      <img class="mb-5 mb-lg-0 rounded-2" id="wt" src="./images/f3.jpg" width="250px" height="400px"  alt="">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
+                      <div class="text-center text-lg-start">
+                        <h1>Waste</h1>
+                        <p class="text-black-50 mb-4" >
+                          It is designed to calculate the carbon emission based on the weight produced input by the user.
+                        </p>  
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                  <div class="row justify-content-center  my-5">
+                    <div class="col-lg-5">
+                      <img class="mb-5 mb-lg-0 rounded-2" id="el" src="./images/f4.jpg" width="250px" height="400px"  alt="">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
+                      <div class="text-center text-lg-start">
+                        <h1>Electricity</h1>
+                        <p class="text-black-50 mb-4" >
+                          It is designed to calculate the carbon emission based on the amount of Electricity, Kilowatt-hour used input by the user.
+                        </p>  
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab" tabindex="0">.
+                  <div class="row justify-content-center  my-5">
+                    <div class="col-lg-5">
+                      <img class="mb-5 mb-lg-0 rounded-2" id="vi" src="./images/f5.jpg" width="350px" height="400px"  alt="">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
+                      <div class="text-center text-lg-start">
+                        <h1>Vision</h1>
+                        <p class="text-black-50 mb-4">
+                          It is designed to calculate the carbon emission based on the detected Carbon Footprints.
+                        </p>  
+                      </div>                     
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-bot" role="tabpanel" aria-labelledby="nav-bot-tab" tabindex="0">
+                  <div class="row justify-content-center  my-5">
+                    <div class="col-lg-5">
+                      <img class="w-100 mb-5 mb-lg-0 rounded-2" src="./images/f6.jpg" alt="">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
+                      <div class="text-center text-lg-start">
+                        <h1>Chat Bot</h1>
+                        <p class="text-black-50 mb-4" >
+                          It is designed to answer any kind of questions from the user related to Carbon Footprint.
+                        </p>  
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Research from App -->
+      <section id="research-tab">
+        <div class="row justify-content-center ">
+          <div class="col-lg-5 mt-70 mb-10">
+            <div class="text-center my-5">
+              <h1>Critical Problems</h1>
+              <p class="text-black-50">
+                 Three Areas in Myanmar
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5 ">
+          <div class="col-lg-3">
+            <div class="card shadow">
+              <div class="card-body pb-5 text-center">
+                <img src="./images/trans.jpg" class="d-block mx-auto my-5 rounded" width="200px" height="150px" alt="">
+                 <h3 class="fw-bold">Transportation</h3>
+                 <p class="text-black-50 small mb-5" style="
+                 border-bottom: dotted;">Research</p> 
+                 <div class="card-footer text-black">
+                  <p>Using on lower quality fuels and diesel fuel produces toxic dusty gas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3">           
+            <div class="card shadow mt-5">
+              <div class="card-body pb-5 text-center">  
+                <img src="./images/waste_calc.jpg" class="d-block mx-auto my-5 rounded" width="200px" height="150px" alt="">     
+                 <h3 class="fw-bold">Waste</h3>
+                 <p class="text-black-50 small mb-5" style="
+                 border-bottom: dotted;">Research</p> 
+                 <div class="card-footer text-black">
+                  <p>There is no systematic maintenance and recycling of waste. Several people carelessly throw waste in drainages, backyards, rivers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-30">
+            <div class="pt-5 mt-o pt-lg-5"></div>
+            <div class="card shadow mt-5">
+              <div class="card-body pb-5 text-center">
+                <img src="./images/elec.jpg" class="d-block mx-auto my-5 rounded" width="200px" height="150px" alt="">
+                 <h3 class="fw-bold">Electricity</h3>
+                 <p class="text-black-50 small mb-5" style="
+                 border-bottom: dotted;">Research</p> 
+                 <div class="card-footer text-black">
+                   <p>Many people turn on the electricity whether its use is required or not all the time. The rate of burning fossil fuels is increased to produce electricity.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="info">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 mt-70 mb-10">
+            <div class="text-center my-5">
+              <h1>Research Information</h1>
+              <h2>How to Tackle Carbon Emissions Ourselves</h2>
+            </div>
+          </div>
+        </div>
+        <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Around the world, the concept of carbon footprint become widely known and seriously
+          considered as the exposure of climate change is affecting influently our daily lives. The carbon
+          footprint is the total combination of the greenhouse emissions that happen either for a
+          commodity to be manufactured or for an acttion to occur. Not only several countries but also
+          Myanmar government are commencing the carbon emission reduction plans and implementing
+          their schemes into actions(Mulvaney, 2022).
+        </p>
+        <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Myamar has provided its the Nationally Determined Contributions (NDCs) to restrict
+          emissions of carbon footprints for the signing the Paris agreement in 2017(Myanmar at risk from
+          worsening climate crisis - myanmar, 2019).Under the agreement, Myanmar has to reduce
+          emissions, adapt to accomodate the influences of climate change,protect its current forests,
+          biodiversity, invest in clean low-carbon electricity, restrict global warming "well below 2 degrees
+          [Celsius] above pre-industrial levels while attempting to limit the increase to 1.5 degrees"(Mike,
+          2020). However, as a poor and developing country, Myanmar government has to implement an
+          action for environmental commitments in accordance with the national budget of the country.
+          Hence, it would be better to actually initialize with the help of international community.
+          However, such contributions will take a substantial amount of time and steps. Thus, alternative
+          methods would be the options.
+        </p>
+        <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Yangon, one of the most polluted city in Myanmar, the current air quality is 162(Air
+          quality index) or unhealthy(Air pollution level). There are about 7 million people in Yangon
+          where it is the most populated place and the center of merchandization. Due to the center of the
+          Myanmar economy, aggregations of industries, automobiles, transportation, vessels, waste,
+          utilizations of electricity trigger a huge amount of pollution and carbon emission(Yangon Air
+          Quality Index (AQI) and Myanmar Air Pollution,n.d).
+        </p>
+        <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the main reasons is vehicle emissions since the whole population employ a
+          considerable number of cars, motorbikes, and vehicles which are mostly using on lower quality
+          fuels and diesel fuel rather than their pristine correspondant resources which are at an
+          internationally recognized level. Such fuels make higher levels of carbon emissions.In addition
+          to that, Trucks and lorries , heavy weight automobiles in charge of carrying containers, goods,
+          and other business uses are also using diesel. Since constricted places and policy to assess the
+          age of the engines, fuels, and the vehicles are less found, old-fashioned applications also become
+          an additional factor in increasing carbon emissions(Yangon Air Quality Index (AQI) and
+          Myanmar Air Pollution,n.d).
+        </p>
+        <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emissions from factories are also to taken into account. As there are less an
+          essential amount of development, implementations, and infrastructure which are under the
+          international standardized level, it is also arduous to check crabon emissions from factories
+          which utilize several amounts of fossil fuels, coals to produce the energy and commdoities. Then,
+          the by-products of production are toxic contaminants and dangerous chemicals waste which
+          reach to the atmosphere and flow into the rivers and seas. Furthermore, burning of fossil fuels for
+          electricity, trushes and organiz waste materials, famlands, lower quality of contructions are
+          adding to this carbon emissions(Yangon Air Quality Index (AQI) and Myanmar Air Pollution,n.d).
+       </p>
+       <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a result, the amount of heat rises up due to the incrasing amount of carbon in the
+          atmosphere which traps the heat from returning back to the outside of the earth surface.
+          Consequently, there are several incidents and effects of climate change. According to The
+          historian U Thant Myint-U, grandson of former United Nations Secretary-General U Thant, “the
+          impact of climate change on Myanmar will be nothing less than catastrophic.” In 2019, the
+          monsoon season, more than 100,000 people had to escape fro their places and over 70
+          inhibitants departed from their lives because of a landslide and flooding affected by severe rains
+          in Mon State(Myanmar at risk from worsening climate crisis - myanmar, 2019).         
+       </p>
+       <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are alternative options to reduce carbon emissions such as Carbon Footprint Tax
+          for Transportation, recycling waste into a new reusuable energy, Nuclear energy to replace
+          burning fossil fuels.
+       </p>
+       <p class="text-black-50 news" >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Among them, carbon taxes also known as carbon pricing is popullarly acknoledged as the
+          most worthwhile method to decrease carbon emissions. A number of countries that implement
+          carbon pricing and taxes including enlarging its current ones. For example, Sweden is one of the
+          first leading countries to implement carbon pricing schemes successfully. Further, the Swedish
+          carbon tax is the higher throughout much of the world with a price of US 123 dollar per tonne
+          fossil carbon dioxide produced. In the Swedish energy taxation system, there are a carbon tax
+          and an energy tax. The carbon tax was begun in 1991. The tax reform significantly reduced the
+          marginal income taxes on both capital and labor, while at the same time expanding the base of
+          the value added tax, among other changes. many people and business organizations can
+          accomodate to the tax system due to the exchange system. The revenues from increasing the
+          carbon tax offer contributions to the people alternatively by reducing general taxes in other
+          sectors in order to also be gratified for lower income civilians(Schiebe, 2019).          
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All in all, the Swedish instance indicates that it is feasible to eliminate decreasingly
+        carbon emissions whilst the ecominy growth is sustaining. Between 1990 and 2017, local carbon
+        emissions lessened by 26 percentage. Meanwhile, the Swedish Growth Domestic Product
+        developed by 78 percentage. On top of that, Sweden became the 8th country on the Global
+        Competitive Index. in 2019. Infact, the 26 percentage emissions lessening is predominantly
+        affiliated with the elargement of fossil free electricity manufacturing such as nuclear energy,
+        hydropower, and bioenergy. Conversely, the considerable enlargement of the district heating
+        system, which is essentially powered by household waste and diverse wood leftovers, has almost
+        completely eradicated the applications of fossil fuels for heating reasons in Sweden(Schiebe,
+        2019).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The exemplification of the action of Sweden would be the best example for Myanmar
+        citizens and government to learn how to encounter similar challenges.Nevertheless, such helpful
+        applications are challenging for Myanmar where a significant amount of financial resources are
+        required to tackle carbon footprint problems. This is because additional tax in Transportation
+        increase the price of commodities, tansportation, and other financial challenges. That might decrease the Growth Domestic Product(GDP) of the country. Additionally, an advanced
+        technology and resources from international scientits and engineers will be expensive. Moreover,
+        even developed and affluent countries have to invest billions of dollars to build nuclear plants for
+        producing electricity. Thus, it is hugely challenging to apply nuclear energy in Myanmar.
+        Besides, utilizations of nuclear energy affect terribly the enviornments due to radioactive waste.                
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Since the government find it difficult to administer and implement carbon
+        footprint taxation and other energy tax sheme, the individual civilians’ actions become matter. At
+        present, the information flows swiftly from continents to continents, and from person to person.
+        In Myanmar, “Myanmar now has at least 33 million active mobile subscriptions in a country
+        with an official population of 53 million. Smartphone usage rate is reported at 80%(Digitalinasia,
+        2018).” To acquire the awareness of taking action to fight against climate change, sharing the
+        impacts of climate change and how to slove the problems can be widely spread. However, many
+        people will think that solving the climate change would be challenging individually. Thus, the
+        software development field comes to a throne in drawing the attention of such higher internet
+        users. They can comprehend the disadvantages of climate change and how to encounter the
+        issues with using only their mobiles by utilizing online tools such as a carbon footprint
+        calculator. On their phones, they can know that they are responsible for how many amounts of
+        carbon released . Afterward, they save the use of transportation by replacing riding
+        bicycles,walking, recycle the waste as much as they can, and turn off the electricity when
+        unnecessary.        
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tuberculosis is one of the most occurring diseases in Myanmar. The cause of Tuberculosis is 
+        caused by a type of bacterium called Mycobacterium Tuberculosis. It spreads when a person with 
+        active TB disease in their lungs coughs or sneezes and someone else inhales them which contain 
+        TB bacteria(NHS choices, n.d).Malaria is also another main disease that is frequently occured 
+        in Myanmar(Health in Myanmar ,2022). Research has shown that in every 1000 people in Myanmar, 
+        at least one person has malaria. Malaria is a disease that can be caused by infections from 
+        female Anopheles mosquitoes(World malaria statistics - knoema.com, n.d). Polluting activities 
+        are resulting in malaria-transmitting mosquitoes expanding into regions where they previously weren’t
+        (Shüné Oliver medical scientist, 2022). Using mosquito repellent wouldn’t be a reasonable solution 
+        either when considered for the long term, as it has many side effects such as allergic reactions, 
+        neurologic & cardiovascular side effects, and can also bring harm to our respiratory system(Khater et al., 2019).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carbon footprint calculator for healthcare facilities - 
+        This can help healthcare workers and facility managers track their energy consumption, waste generation, 
+        and transportation emissions. By identifying areas of high carbon footprint, they can implement targeted 
+        measures to reduce emissions, such as switching to renewable energy sources or improving waste management 
+        practices(Carbon footprint modelling of National Health ... - wiley online library, n.d).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sustainable procurement - The app can include information on 
+        sustainable procurement practices for healthcare facilities, such as buying products made from environmentally 
+        friendly materials or reducing packaging waste(Carbon footprint modelling of National Health ... - wiley online library, n.d).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Patient education - The app can provide patients with information on sustainable living practices that can improve their health 
+        and well-being, such as reducing air pollution exposure or increasing physical activity
+        (Carbon footprint modelling of National Health ... - wiley online library, n.d).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transportation options - The app can provide information on sustainable transportation
+         options for healthcare workers and patients, such as public transit or bike-sharing programs(Carbon footprint modelling of National Health ... - wiley online library, n.d).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collaboration and networking - The app can provide a platform for healthcare workers 
+        and sustainability professionals to connect, share best practices, and collaborate on sustainability initiatives
+        (Carbon footprint modelling of National Health ... - wiley online library, n.d).       
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Health care challenges can be related to environmental factors in several ways.
+         Environmental factors such as air pollution, water pollution, and exposure to hazardous chemicals can cause or exacerbate 
+         a range of health conditions, including respiratory and cardiovascular diseases, cancer, and neurological disorders. 
+         Health care workers and patients may be particularly vulnerable to these environmental hazards, especially if they are working 
+         or living in areas with poor air quality or contaminated water sources(Introduction to environmental public health tracking,2019).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additionally, the environmental impact of health care facilities and operations can 
+        contribute to climate change and other environmental challenges. For example, health care facilities are responsible for a significant 
+        portion of greenhouse gas emissions and generate large amounts of waste, much of which is hazardous and requires special handling and disposal(Introduction to environmental public health tracking, 2019).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Addressing these environmental factors and reducing their impact on health care workers 
+        and patients can help improve health outcomes and reduce health care costs. This can be achieved through measures such as improving indoor
+        air quality, reducing energy use and emissions from health care facilities, and promoting sustainable practices throughout the health care system(Introduction to environmental public health tracking,2019).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developing an effective system to address environmental health in Myanmar requires a multi-faceted approach, incorporating awareness, practice, and public teaching. Here are some potential steps to consider(Introduction to environmental public health tracking,2019).
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Awareness: Increase awareness and understanding of environmental health issues among the general public through education and outreach campaigns. This could include working with local schools to integrate environmental health education into the curriculum and engaging with community leaders and NGOs to raise awareness through public events and media campaigns.
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Practice: Encourage good environmental practices, such as proper waste management and responsible use of natural resources. This could include providing communities with access to waste management services, promoting sustainable agriculture and forestry practices and encouraging the use of renewable energy sources.
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Public Teaching: Empower healthcare professionals to provide guidance and education on environmental health issues to their patients. This could include developing training programs for healthcare providers to increase their knowledge of environmental health issues and equipping them with the tools to communicate this information to their patients.
+       </p>
+       <p class="text-black-50 news" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Collaboration: Foster partnerships and collaborations between different stakeholders working on environmental health in Myanmar, including government agencies, NGOs, universities, and the private sector. This could help bring together expertise, resources, and funding to develop and implement effective strategies for addressing environmental health in the country.
+       </p>
+       <p class="text-black-50 news" style="margin-bottom: 0px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall, developing an effective system for delivering environmental health to the people in Myanmar requires a coordinated effort between different stakeholders and a focus on raising awareness, encouraging good practices, and empowering healthcare professionals to provide education and guidance to their patients. As a real estate investor, looking for opportunities to support these initiatives can be a meaningful way to contribute to the overall health and sustainability of the communities in which you invest.
+       </p>
+      </section>
+
+      <section id="button">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center my-5">
+              <h1 class="display-6">The above-mentioned research information can also be downloaded</h1>
+              <a href="./pdf file/Research Paper by C4C.pdf" download>
+                <button type="button" class="btn btn-success">Download</button>
+              </a>            
+            </div>
+          </div>
+      </section>
+
+      <!-- Questions -->
+      <section id="quest">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center my-5">
+              <h1>Frequently Asked Questions</h1>
+              <p class="text-black-50 mx-auto">
+                Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center ">
+          <div class="col-lg-6 mb-30">
+            <div class="accordion accordion-flush" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" id="b1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <p>What is Carbon Footprint?</p> 
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The carbon footprint is the total combination of the greenhouse emissions that happen either for acommodity to be manufactured or for an acttion to occur. 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" id="b2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How can I participate in Carbon Emissions reduction?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    We can use  GAIA carbon footprint calculator to know how many carbon footprints do we produce in every day life. That make us realize to preserve our environmental health.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" id="b3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Is it a mobile app or web-app ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    It is currently in the step of Software Development.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <footer id="contact_tab">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-4">
+                  <div class="text-center my-5">
+                    <p class="text-white-50 text-uppercase footer-text mb-5">Ready to Launch</p>
+                    <h3 class="text-white px-4 px-lg-0">
+                      Stay up-to-date with what we’re doing
+                    </h3>
+                  </div>
+                  <div class="row flex-column flex-lg-row align-items-center mb-5 g-1">
+                    <div class="col-12 col-lg-8">
+                       <h5 class="ml-115 text-info" >Contact Us</h5>
+                       <p class="ml-55 text-info" >gaiahelpingcommunity@gmail.com</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p class="text-black">&copy;2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <a href="https://www.facebook.com/profile.php?id=100090733294470&mibextid=LQQJ4d" id="fb">
+                    <i class="fa-brands fa-facebook" id="fb_icon"></i>
+                  </a>            
+              </div>
+            </div> 
+          </div>
+        </footer>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
